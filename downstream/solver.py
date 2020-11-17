@@ -24,7 +24,7 @@ from tensorboardX import SummaryWriter
 from dataloader import get_Dataloader
 from transformer.solver import Solver, Tester
 from transformer.optimization import BertAdam
-from downstream.model import LinearClassifier, RnnClassifier
+from downstream.model import FeedForwardClassifier, RnnClassifier
 from rnn.runner import get_apc_model
 
 
